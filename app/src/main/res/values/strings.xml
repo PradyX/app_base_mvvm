@@ -1,14 +1,21 @@
 <!--
   ~ /**
-  ~  * Created by prady on 3/29/22, 1:32 PM
-  ~  * Copyright (c) 2022 . All rights reserved.
-  ~  * Last modified 3/29/22, 11:05 AM
+  ~  * Created by prady on 14/02/26, 2:28 pm, $today.time
+  ~  * Copyright (c) 2026 . All rights reserved.
+  ~  * Last modified 14/02/26, 2:28 pm, $file.lastModified.time
   ~  */
+  ~
   -->
 
 <resources>
-    <string name="app_name">MVVM Template</string>
+    <string name="app_name">app_base</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="alert">Alert</string>
+    <string name="dummy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="update_available">Update available !</string>
+    <string name="a_new_version_of_the_app_is_available_please_update_to_continue_using_the_app">A new version of the app is available. Please update to continue using the app.</string>
+    <string name="by_using_this_app">By using this app, you agree to our <a href="http://www.google.com">Terms &amp; Conditions\n</a> and <a href="http://www.google.com">Privacy Policy</a>.</string>
+    <string name="please_enter_your_phone_number">Please enter your phone number</string>
+    <string name="phone_number">Phone number</string>
 </resources>

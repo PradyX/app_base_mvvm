@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "535161585524",
+    "firebase_url": "https://appchecks-44916-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "appchecks-44916",
+    "storage_bucket": "appchecks-44916.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535161585524:android:67506fb029a85b715b3621",
+        "android_client_info": {
+          "package_name": "com.prady.app.base"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYytqoKAaAsT0S0Q8_O9SQdDDFYBkls08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

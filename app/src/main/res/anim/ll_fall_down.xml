@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by prady on 14/02/26, 2:28 pm, $today.time
+  ~  * Copyright (c) 2026 . All rights reserved.
+  ~  * Last modified 14/02/26, 2:28 pm, $file.lastModified.time
+  ~  */
+  ~
+  -->
+
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animation="@anim/item_fall_down"
+    android:animationOrder="normal"
+    android:delay="50%" />

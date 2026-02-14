@@ -1,35 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<?xml version="1.0" encoding="utf-8"?>
+<!--
   ~ /**
-  ~  * Created by prady on 3/29/22, 1:32 PM
-  ~  * Copyright (c) 2022 . All rights reserved.
-  ~  * Last modified 3/29/22, 1:02 PM
+  ~  * Created by prady on 14/02/26, 2:28 pm, $today.time
+  ~  * Copyright (c) 2026 . All rights reserved.
+  ~  * Last modified 14/02/26, 2:28 pm, $file.lastModified.time
   ~  */
+  ~
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.prady.mvvm.template">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name=".ui.MyApplication"
+        android:name="com.prady.app.base.helpers.AppController"
         android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MVVM.Template">
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
         <activity
-            android:name="com.prady.mvvm.template.ui.mainActivity.MainActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.prady.mvvm.template.ui.SplashActivity"
+            android:name="com.prady.app.base.ui.activities.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.prady.app.base.ui.activities.authActivity.AuthActivity" />
     </application>
+
 </manifest>
